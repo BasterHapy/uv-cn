@@ -26,6 +26,15 @@
 
 请在页面中找到最新的版本，并复制该版本下适合您操作系统的一键安装命令。
 
+## 🔧 参考项目
+- [uv 国内加速镜像-gitee](https://gitee.com/wangnov/uv-custom)
+- [uv 国内加速镜像-github](https://github.com/Wangnov/uv-custom)
+- [uv 官方项目](https://github.com/astral-sh/uv)
+
+
+## uv使用
+- [uv中文文档](https://uv.oaix.tech/)
+- [uv官方文档](https://docs.astral.sh/uv/)
 
 ## 🙏 致谢
 
