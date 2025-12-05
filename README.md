@@ -13,13 +13,13 @@
 - **灵活配置**：您可以在运行一键安装命令时，通过设置 `UV_DOWNLOAD_PROXY` 和 `UV_PYPI_MIRROR` 环境变量来临时覆盖默认的下载代理和 PyPI 镜像源，以适应不同的网络环境。通过设置 `UV_VERSION` 来选择下载不同的uv版本。
 - **国内cpython镜像***: 使用国内的镜像站，大幅提升下载速度。
 
-👉 **[前往 Gitee Releases 页面](https://gitee.com/wangnov/uv-cn/releases)**
+👉 **[前往 Gitee Releases 页面](https://gitee.com/BasterHapy/uv-cn/releases)**
 
 请在页面中找到最新的版本，并复制该版本下适合您操作系统的一键安装命令。
 
 ## 🔧 参考项目
-- [uv 国内加速镜像-gitee](https://gitee.com/wangnov/uv-custom)
-- [uv 国内加速镜像-github](https://github.com/Wangnov/uv-custom)
+- [uv-custom gitee](https://gitee.com/wangnov/uv-custom)
+- [uv-custom github](https://github.com/Wangnov/uv-custom)
 - [uv 官方项目](https://github.com/astral-sh/uv)
 
 
@@ -36,3 +36,4 @@
 ## 📄 许可证
 
 本项目采用 [MIT](LICENSE) 许可证。
+
