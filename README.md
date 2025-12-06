@@ -18,6 +18,15 @@
 
 请在页面中找到最新的版本，并复制该版本下适合您操作系统的一键安装命令。
 
+
+## ⚠️ 注意事项
+由于国内网络问题，`uv`使用镜像下载源可能会出现问题，建议下载`windows`安装程序！
+
+## 🚀 一键安装
+```powershell 
+powershell -ExecutionPolicy Bypass -c "irm https://gitee.com/BasterHapy/uv-cn/releases/download/0.9.15/uv-install-cn.ps1 | iex"
+```
+
 ## 🔧 参考项目
 - [uv-custom gitee](https://gitee.com/wangnov/uv-custom)
 - [uv-custom github](https://github.com/Wangnov/uv-custom)
