@@ -91,7 +91,7 @@ if ($unmanaged_install) {
 # This script block is injected by create_custom_uv_installer.sh
 
 # --- Customization: Define runtime proxy URL and override ArtifactDownloadUrl ---
-if ($env:UV_DOWNLOAD_PROXY) { $uv_download_proxy_url = $env:UV_DOWNLOAD_PROXY } else { $uv_download_proxy_url = "https://ghproxy.net" }
+if ($env:UV_DOWNLOAD_PROXY) { $uv_download_proxy_url = $env:UV_DOWNLOAD_PROXY } else { $uv_download_proxy_url = "https://ghfast.top" }
 $ArtifactDownloadUrl = "$uv_download_proxy_url/https://github.com/astral-sh/uv/releases/download/$app_version"
 
 
@@ -99,7 +99,7 @@ $ArtifactDownloadUrl = "$uv_download_proxy_url/https://github.com/astral-sh/uv/r
 Write-Information "正在配置默认的 PyPI 和 Python 下载镜像..."
 
 if ($env:UV_PYPI_MIRROR) { $uv_pypi_mirror_url = $env:UV_PYPI_MIRROR } else { $uv_pypi_mirror_url = "https://pypi.tuna.tsinghua.edu.cn/simple" }
-$python_install_mirror_url = "$uv_download_proxy_url/https://github.com/astral-sh/python-build-standalone/releases/download"
+$python_install_mirror_url = "https://registry.npmmirror.com/-/binary/python-build-standalone/"
 
 $uv_config_dir = Join-Path $env:APPDATA "uv"
 if (-not (Test-Path $uv_config_dir)) {
