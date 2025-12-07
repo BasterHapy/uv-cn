@@ -3,7 +3,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/Wangnov/uv-custom?display_name=tag&sort=semver&logo=github)](https://gitee.com/BasterHapy/uv-cn/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-这是一个基于 [uv-custom/uv](https://gitee.com/wangnov/uv-custom)与[uv ](https://github.com/astral-sh/uv)的项目，旨在方便国内用户更容易，更快的使用`uv这个工具。
+这是一个基于 [uv-custom/uv](https://gitee.com/wangnov/uv-custom)与[uv ](https://github.com/astral-sh/uv)的项目，旨在方便国内用户更容易，更快的使用`uv`这个工具。
 
 ## ✨ 项目特点
 
