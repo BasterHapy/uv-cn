@@ -7,21 +7,20 @@
 
 ## ✨ 项目特点
 
-- **下载加速**：所有 GitHub 下载链接均通过镜像代理，大幅提升下载速度。
-- **预设镜像**：自动为您配置清华大学 PyPI 镜像和 Python 构建镜像。
+- **下载加速**：`uv`下载链接通过镜像代理，大幅提升下载速度。
+- **预设镜像**：自动为您配置清华大学`PyPI`镜像和国内`cPython`镜像源。
 - **一键安装**：提供平台原生的一键安装命令，无需手动下载或授权。
 - **windows程序**：可直接在windows上安装与卸载
 - **灵活配置**：您可以在运行一键安装命令时，通过设置 `UV_DOWNLOAD_PROXY` 和 `UV_PYPI_MIRROR` 环境变量来临时覆盖默认的下载代理和 PyPI 镜像源，以适应不同的网络环境。通过设置 `UV_VERSION` 来选择下载不同的uv版本。
-- **国内cpython镜像***: 使用国内的镜像站，大幅提升下载速度。
 
 👉 **[前往 Gitee Releases 页面](https://gitee.com/BasterHapy/uv-cn/releases)**
 
 请在页面中找到最新的版本，并复制该版本下适合您操作系统的一键安装命令。
 
-关于下载时临时切换国内`github`镜像代理`UV_DOWNLOAD_PROXY`,镜像代理地址参考阅[这里](https://jishuzhan.net/article/1965957555249266689#google_vignette)
 
 ## ⚠️ 注意事项
 由于国内网络问题，`uv`使用镜像下载源可能会出现问题，建议下载`windows`安装程序！
+关于下载时临时切换国内`github`镜像代理`UV_DOWNLOAD_PROXY`,镜像代理地址参考阅[这里](https://jishuzhan.net/article/1965957555249266689#google_vignette)
 
 ## 🚀 一键安装
 ```powershell 
